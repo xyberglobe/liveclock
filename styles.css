@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('background.jpg'); /* Background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    font-family: 'Arial', sans-serif;
+}
+
+.clock {
+    font-size: 8rem; /* Increased font size */
+    color: #000000; /* Black font color */
+    text-shadow: 
+        0 0 10px #319996, 
+        0 0 20px #94e92c, 
+        0 0 40px #28e1ad, 
+        0 0 80px #4ae473, 
+        0 0 120px #8bd037; /* Glowy shadow effect */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock span {
+    padding: 0 15px; /* Increased padding */
+}
