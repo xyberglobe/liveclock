@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('background.jpg'); /* Background image */
+    background-image: url('background1.jpg'); /* Background image */
     background-size: cover; /* Cover the entire background */
     background-position: center; /* Center the background image */
     font-family: 'Arial', sans-serif;
